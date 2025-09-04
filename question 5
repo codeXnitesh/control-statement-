@@ -1,0 +1,9 @@
+n = int(input("Enter number of rows: "))
+i=4
+for i in range (3, n+3 ):
+    for j in range (3, n+3):
+        if j==3:
+            print("*", end="__")
+        else:
+            print("*")    
+            
